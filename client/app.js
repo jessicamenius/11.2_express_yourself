@@ -26,7 +26,7 @@ $(document).ready(function () {
       datatype: "json",
     }).then((res) => {
       console.log(res);
-      $(".text").html(`Count: ${res.count}`);
+      $("#text").html(`Count: ${res.count}`);
     });
   });
 });
